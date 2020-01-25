@@ -67,6 +67,18 @@
           <AssociatedConnUserName>SA</AssociatedConnUserName>
           <FullPath>SP_SEL_Ventas.sql</FullPath>
         </FileNode>
+        <FileNode Name="SP_SEL_VentasTotales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\SQLEXPRESS:False:SA</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>SA</AssociatedConnUserName>
+          <FullPath>SP_SEL_VentasTotales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_UPD_Venta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\SQLEXPRESS:False:SA</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>SA</AssociatedConnUserName>
+          <FullPath>SP_UPD_Venta.sql</FullPath>
+        </FileNode>
         <FileNode Name="UPDATE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\SQLEXPRESS:False:SA</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)\SQLEXPRESS</AssociatedConnSrvName>

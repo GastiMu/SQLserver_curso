@@ -1,17 +1,14 @@
-
-alter proc SP_SEL_Ventas(
-	@idProducto int = 0
+alter PROC SP_SEL_Ventas(
+			@idProducto int = 0
 )
-as
+As
 
-if @idProducto > 0 
-	 select * 
-	 from Venta V inner join Producto P on P.idProducto = V.idProducto
-	 where @idProducto = V.idProducto
-else 
-	select * from Venta inner join Producto on idProducto
+if @idProducto > 0
+	SELECT * from Venta V
+	INNER JOIN Producto P on P.idProducto = V.idProducto
+	WHERE V.idProducto = @idProducto
 
+else
+	SELECT * from Venta
 
-exec SP_SEL_Ventas 2
-
-
+	 exec SP_SEL_Ventas 2
